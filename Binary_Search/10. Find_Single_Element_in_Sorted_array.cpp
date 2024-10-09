@@ -13,3 +13,8 @@ public:
         return ans;
     }
 };
+
+
+// Following is the O(log(n)) approach
+// Watch the video - Very Nice observation
+
