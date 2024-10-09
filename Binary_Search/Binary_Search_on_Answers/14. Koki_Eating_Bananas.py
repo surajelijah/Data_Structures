@@ -45,7 +45,7 @@ class Solution:
 
             if(check_val<=h):
                 ans=mid
-                high=mid-1
+                high=mid-1 # You are going to the left half as we want the minimum value
             else:
                 low=mid+1
         return ans

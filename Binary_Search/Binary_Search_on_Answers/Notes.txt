@@ -1,0 +1,24 @@
+
+
+These problems have a similar pattern
+
+Where the answer search space is sorted and linear and "We are asked to find the minimum which satisfies the condtions basically the lower bound in the search space"
+
+
+Say in the Koki Eating Bananas questions
+
+    - We are given the hours, and asked to find the minimum rate to eat those Bananas withing those  hours and the MAIN thing here is we have to complete ALL the Bananas
+      ( the answer should be such that it should be within the constraint and include all the values given )
+
+    - So in this, the answer search space is sorted, low = 1 and high = max(Bananas) and in this we search, the mid value is the temperory rate, with which we check if we are able
+      to satisfy the condition ( in this case h) and as per minimum ( we find the lower bound ), if asked for the maximum ( go for the upper bound)
+
+    - But usually the upper bound would be the high value in these kind pf problems
+
+    - So Mostly they ask minimum which is to find the lower bound in the answer search space
+
+
+  
+
+
+- Always try to find the range of the search space and see if you can apply in binary search, try to  identify what you are iterating on I mean the search space

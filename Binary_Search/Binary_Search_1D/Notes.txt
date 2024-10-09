@@ -1,0 +1,9 @@
+In these questions the pattern is as such that
+
+Mostly it is related to 1D Sorted or Rotation Sorted Arrays
+
+
+
+Main Idea here - When you see sorted array or search in a sorted space then go for binary search
+
+and also not just that, when we can remove one half from the entire search space, then use Binary search
