@@ -1,0 +1,26 @@
+https://www.youtube.com/watch?v=P1bAPZg5uaE&list=PL_z_8CaSLPWdeOezg68SKkeLN4-T_jNHd
+
+
+- How to identify that we need to use a stack.
+
+
+Hint 1 - Whenever we are given an array ( most of the cases ), we can use the stack.
+
+
+Hint 2 - Main thing 
+
+Now say we have written a solution for O(n^2) like
+
+    for(int i=0;i<n;i++){
+        for(int j=0;j<n;j++)     // NOTE : HERE the j is NOT dependant on i.
+    }
+
+    for(int i=0;i<n;i++){
+        for(int j=0;j<i;j++)   // NOTE : HERE the j is dependant on i 
+    }
+
+    Now in this case where j is dependant on i, then there is a possibility of using a stack for sure to,
+    reduce the Time Complexity.
+
+- Let's see this in the questions
+
